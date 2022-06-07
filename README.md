@@ -15,7 +15,7 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
 7. Fazer um endpoint para excluir um carro.
 8. Fazer um endpoint para consultar os carros. Criar um sistema de paginação de itens ou usar o OData para isso.\
 8.1 O retorno do endpoint deverá ser uma array do seguinte JSON:
-  ```yaml
+__```yaml
   {
      "this-json": "looks awesome..."
   }
