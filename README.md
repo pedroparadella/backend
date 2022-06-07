@@ -25,7 +25,7 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
      "PhotoId": 0
   }
   ```
-9. Criar um endpoint que renderiza a foto de um item específico.
+9. Criar um endpoint que renderiza a foto de acordo como Id informado.
 10. A API deve ser construída em .NET 5/6
 11. Documentar a API com o [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
 12. Publicar essa API na máquina disponibilizada pela Ímpar com o perfil de publicação.
