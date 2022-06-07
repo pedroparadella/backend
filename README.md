@@ -14,8 +14,8 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
 6. Fazer um endpoint para editar um carro.
 7. Fazer um endpoint para excluir um carro.
 8. Fazer um endpoint para consultar os carros.\
-8.1. Criar um sistema de busca de itens pela coluna "Name" ou usar o OData para isso.
-8.2. Criar um sistema de paginação de itens ou usar o OData para isso.
+8.1. Criar um sistema de busca de itens pela coluna "Name" ou usar o OData para isso.\
+8.2. Criar um sistema de paginação de itens ou usar o OData para isso.\
 8.3. O retorno do endpoint deverá ser uma array do seguinte JSON:
   ```yaml
   {
