@@ -10,11 +10,19 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
 3. Use esse repositório para desenvolver a API.
 4. Com o banco de dados SQL Server enviado pela Ímpar, criar a estrutura a partir da seguinte UML:\
 ![UML](uml.png)
-5. Fazer uma API onde ela consuma o banco de dados e disponibilize a informação pro Front-end.
-6. A API deve ter sistema de paginação de itens. Ex: trazer de 10 em 10 itens. 
-7. A API deve ser construída em .NET 5/6
-8. Documentar a API com o [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
-9. Publicar essa API na máquina disponibilizada pela Ímpar com o perfil de publicação.
+5. Fazer um endpoint para criar um carro.
+6. Fazer um endpoint para editar um carro.
+7. Fazer um endpoint para excluir um carro.
+8. Fazer um endpoint para consultar os carros. Criar um sistema de paginação de itens ou usar o OData para isso.
+  8.1 O retorno do endpoint deverá ser uma array do seguinte JSON:
+  ```yaml
+  {
+     "this-json": "looks awesome..."
+  }
+  ```
+10. A API deve ser construída em .NET 5/6
+11. Documentar a API com o [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
+12. Publicar essa API na máquina disponibilizada pela Ímpar com o perfil de publicação.
 
 ## Ao finalizar o código
 1. Publicar a API na máquina disponibilizada através do perfil de publicação.
