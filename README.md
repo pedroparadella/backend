@@ -14,8 +14,8 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
 6. Fazer um endpoint para editar um carro.
 7. Fazer um endpoint para excluir um carro.
 8. Fazer um endpoint para consultar os carros.\
-8.1. Criar um sistema de busca de itens pela coluna "Name" ou usar o OData para isso.\
-8.2. Criar um sistema de paginação de itens ou usar o OData para isso.\
+8.1. Criar um sistema de busca de itens pela coluna "Name" ou usar o OData/GraphQL para isso.\
+8.2. Criar um sistema de paginação de itens ou usar o OData/GraphQL para isso.\
 8.3. O retorno do endpoint deverá ser uma array do seguinte JSON:
   ```yaml
   {
@@ -25,7 +25,7 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
      "PhotoId": 0
   }
   ```
-9. Criar um endpoint que renderiza a foto de acordo como Id informado.
+9. Criar um endpoint que renderiza a foto de acordo com o Id informado.
 10. A API deve ser construída em .NET 5/6
 11. Documentar a API com o [Swagger](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-6.0)
 12. Publicar essa API na máquina disponibilizada pela Ímpar com o perfil de publicação.
@@ -41,4 +41,4 @@ Seja bem-vindo, o intuito do teste não é reprovar e sim conhecer seu melhor es
 * A API deverá ser construída em .Net 5/6.
 
 ## Desafios se você se sentir confiante
-* Utilizar [OData](https://docs.microsoft.com/en-us/odata/overview) na API.
+* Utilizar [OData](https://docs.microsoft.com/en-us/odata/overview) ou GraphQL na API.
